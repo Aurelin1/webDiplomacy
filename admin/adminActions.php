@@ -87,7 +87,7 @@ class adminActions extends adminActionsForms
 			),
 			'banUser' => array(
 				'name' => 'Ban a user',
-				'description' => 'Bans a user, setting his games to civil disorder, and removing his points.',
+				'description' => 'Bans a user, setting their games to civil disorder, and removing their points.',
 				'params' => array('userID'=>'User ID','reason'=>'Reason'),
 			),
 			'unbanUser' => array(
@@ -107,7 +107,8 @@ class adminActions extends adminActionsForms
 			),
 			'updateEmergencyDate' => array(
 				'name' => 'Adjust Emergency Date',
-				'description' => 'Enter 0 to grant the user another emergency pause, enter 1 to stop this user from having emergency pauses.',
+				'description' => 'Enter 0 to grant the user another emergency pause, enter 1 to stop t
+				user from having emergency pauses.',
 				'params' => array('userID'=>'User ID','setting'=>'Setting'),
 			),
 			'setProcessTimeToPhase' => array(
@@ -118,7 +119,8 @@ class adminActions extends adminActionsForms
 			'setProcessTimeToNow' => array(
 				'name' => 'Process game now',
 				'description' => 'Set a game process time to now, resulting in it being processed now.<br />
-					<em>Be careful:</em> this will cause any players without submitted moves to NMR.',
+					<em>Be careful:</em> t
+					will cause any players without submitted moves to NMR.',
 				'params' => array('gameID'=>'Game ID'),
 			),
 			'toggleWaitForOrders' => array(
